@@ -36,19 +36,19 @@ The project was developed as a **final study project** for university, showcasin
 ## 📦 Installation and Setup
 ### Prerequisites
 Ensure you have the following installed on your system:
-- **Node.js** and **Yarn** (or npm) for the client.
+- **Node.js** and **Npm** for the client.
 - **Java 17+** and **Maven** for the server.
 - **PostgreSQL** database.
 
 ### Steps
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/dvd-rental-system.git
+git clone https://github.com/noamradiano/dvd-rental-system.git
 cd dvd-rental-system
 ```
 
 #### 2. Set Up the Backend
-1. Navigate to the `server` directory:
+1. Navigate to the `dvdrentalsystem` directory:
    ```bash
    cd server
    ```
@@ -60,17 +60,17 @@ cd dvd-rental-system
    ```
 
 #### 3. Set Up the Frontend
-1. Navigate to the `client` directory:
+1. Navigate to the `dvd-rental-system` directory:
    ```bash
-   cd ../client
+   cd ../dvd-rental-system
    ```
 2. Install dependencies:
    ```bash
-   yarn install
+   npm install
    ```
 3. Start the development server:
    ```bash
-   yarn start
+   npm start
    ```
 
 #### 4. Access the Application
