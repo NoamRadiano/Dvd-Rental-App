@@ -50,7 +50,7 @@ cd dvd-rental-system
 #### 2. Set Up the Backend
 1. Navigate to the `dvdrentalsystem` directory:
    ```bash
-   cd server
+   cd dvdrentalsystem
    ```
 2. Configure the `application.properties` file for your PostgreSQL setup.
 3. Build and run the server:
