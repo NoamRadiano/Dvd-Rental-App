@@ -90,8 +90,8 @@ cd dvd-rental-system
 ---
 
 ## 🤝 Contributors
-- **Noam Radeanu**
-- **Shon Salomonovitch**
+- **Noam Radeanu** [GitHub Profile](https://github.com/noamradiano)
+- **Shon Salomonovitch** [GitHub Profile](https://github.com/shonsalomonovitch)
 - **Tal Danon**
 
 ---
