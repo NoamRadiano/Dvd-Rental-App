@@ -1,0 +1,191 @@
+.App {
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .color-1{
+    color:#e94d3d;
+ }
+.bg-color-1{
+    background-color: #e94d3d;
+}
+ .App-title{
+   font-weight: 800;
+ }
+.color-2{
+    color:#67c2ad;
+}
+ h1{
+   color:#e94d3d;
+   font-weight: 800;
+ }
+.admin h1{
+    color: black;
+    font-size: 70px;
+}
+ /*Login and Register page*/
+.auth h2{
+     color:#e94d3d;
+     font-weight: 700;
+ }
+.auth label, .auth .form-control, .auth input::placeholder{
+    color:#67c2ad;
+}
+.auth .custom-input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: initial;
+}
+
+.auth .border-auth{
+    border-color: #67c2ad!important;
+    border: solid;
+    border-radius: 14px;
+}
+.auth .btn{
+    border-color: #e94d3d!important;
+    background-color: #e94d3d!important;
+}
+/*header bar*/
+.header .btn{
+    border-radius: 12px;
+    background-color:#67c2ad ;
+    border-color: #67c2ad;
+}
+.header input{
+    background-color: #e3eef4;
+    border-color: #67c2ad;
+    color: #67c2ad;
+}
+.header input:focus,
+.header input::placeholder{
+    color: #67c2ad;
+}
+/*sidebar for admin*/
+.sidebar-admin {
+ height: 100vh;
+
+}
+.sidebar-admin .nav-item{
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sidebar-admin h1,
+.sidebar-admin .nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar-admin .nav-item a:hover{
+    color: white!important;
+}
+/*sidebar for user*/
+.sidebar-user {
+    height: 100vh;
+
+}
+.sidebar-user .nav-item{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sidebar-user h1,
+.sidebar-user h1>a,
+.sidebar-user .nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar-user .nav-item a:hover{
+    color: white!important;
+}
+/*admin*/
+.admin .card{
+    border-radius: 20px;
+}
+.admin .card .card-header{
+    border-bottom: none;
+    font-size: x-large;
+    /* font-weight: bold; */
+    font-family: fantasy;
+}
+
+.admin .card .card-body{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/*table*/
+/*admin*/
+.admin .table>* >*>* {
+    color:white;
+}
+.admin .table>thead >*>* {
+    background-color: #e94d3d;
+    padding-bottom: 25px;
+}
+.admin .table>tbody >*>* {
+    background-color: black;
+    border-bottom: none;
+}
+.admin.edit-movies table>*>*>*{
+    color: black;
+    background-color: white;
+}
+/* user */
+.user-history .table>* >*>* {
+    border-bottom:none;
+}
+
+/*movie cart button*/
+.btn-custom{
+    border-color: #e94d3d!important;
+    background-color: #e94d3d!important;
+    color:black;
+}
+.card.movieCart{
+    background-color: lightgray;
+}
+.user.sort > h1::first-letter{
+    text-transform: capitalize;
+}

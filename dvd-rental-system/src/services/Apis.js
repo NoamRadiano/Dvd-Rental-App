@@ -1,0 +1,1 @@
+const SERVER_ADDRESS = 'http://localhost';const SERVER_PORT = ':8090';const API_URL_AUTH = SERVER_ADDRESS + SERVER_PORT + '/api/auth';const API_URL_MOVIE = SERVER_ADDRESS + SERVER_PORT + '/api/movies';const API_URL_CATE= SERVER_ADDRESS + SERVER_PORT + '/api/categories';export default {    API_URL_AUTH,    API_URL_MOVIE,    API_URL_CATE}
